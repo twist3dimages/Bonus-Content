@@ -1,5 +1,5 @@
 ﻿Get-Command -Module AdmPwd.ps
-Get-ADComputer alanrails -Properties ms-Mcs-admpwd, ms-MCS-AdmPwdExpirationTime
+Get-ADComputer l2dz9433 -Properties ms-Mcs-admpwd, ms-MCS-AdmPwdExpirationTime
 
 
 Get-ADOrganizationalUnit -Filter *| Find-AdmPwdExtendedRights -PipelineVariable OU |ForEach{
